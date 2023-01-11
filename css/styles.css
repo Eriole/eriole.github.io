@@ -53,13 +53,13 @@ img
 	flex-direction: row;
 }
 
-.jaune{
+.fill{
 	height: 15px;
 	width: 20px;
 	background-color: #ec9ba4;
 }
 
-.gris{
+.empty{
 	height: 15px;
 	width: 20px;
 	background-color: #b2b2b2;
