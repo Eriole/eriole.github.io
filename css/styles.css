@@ -4,14 +4,18 @@ body{
 	margin : 0;
 	background-color: #dadada;
 	word-wrap: break-word;
-	font-family: Mulish, Arial, Impact;
+	font-family: Mulish, Ubuntu, Arial, Impact;
 	font-size: 16px;
+	color: #333333 ;
 }
+
+/* Header */
 
 header{
 	font-family: Mulish, Arial, Impact;
+	font-weight: 600;
 	background-color: #f7d1d5;
-	height: 200px;
+	height: 250px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -22,6 +26,60 @@ img
     box-shadow: 2px 2px 10px #959595;
 }
 
-h2{
+/* Articulation des sections */
 
+.contenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start stretch;
+	margin: auto;
 }
+
+.left{
+	width: 20%;
+	padding: 0px 10px 0px 60px;
+	background-color: #f7d1d5;
+}
+
+.right{
+	width: 80%;
+	padding: 0px 10px 0px 30px; 
+}
+
+/* Barre de progression des compétences */
+.barre{
+	display: flex;
+	flex-direction: row;
+}
+
+.jaune{
+	height: 15px;
+	width: 20px;
+	background-color: #ec9ba4;
+}
+
+.gris{
+	height: 15px;
+	width: 20px;
+	background-color: #b2b2b2;
+}
+
+/* Textes */
+
+h2{
+	font-family: Ubuntu, Arial, Impact;
+	font-weight: 500;
+	font-size: 1.5em;
+	color: #666666;
+}
+
+ul,p{
+	list-style-type: none;
+	font-size: 1em;
+}
+
+li{
+	margin-bottom : 20px;
+}
+
