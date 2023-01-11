@@ -1,0 +1,27 @@
+body{
+	box-sizing: border-box;
+	overflow-x: hidden;
+	margin : 0;
+	background-color: #dadada;
+	word-wrap: break-word;
+	font-family: Mulish, Arial, Impact;
+	font-size: 16px;
+}
+
+header{
+	font-family: Mulish, Arial, Impact;
+	background-color: #f7d1d5;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+img
+{
+    box-shadow: 2px 2px 10px #959595;
+}
+
+h2{
+
+}
