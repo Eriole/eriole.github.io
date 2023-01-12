@@ -21,7 +21,7 @@ header {
 	align-items: center;
 }
 
-img {
+.photo {
 	box-shadow: 2px 2px 20px #333333;
 }
 
@@ -36,7 +36,7 @@ img {
 
 .left {
 	width: 20%;
-	padding: 0px 10px 0px 30px;
+	padding: 0px 30px 0px 30px;
 	padding-bottom: 100px;
 }
 
@@ -113,13 +113,13 @@ li {
 	margin-bottom: 20px;
 }
 
-.titre {
-	font-size: 1.2em;
-	font-weight: 700;
+strong {
 	color: #666666;
 }
 
-strong {
+.titre {
+	font-size: 1.2em;
+	font-weight: 700;
 	color: #a37c9b;
 }
 
@@ -130,4 +130,20 @@ strong {
 .left > .comp {
 	margin-bottom: 0;
 	text-align: center;
+}
+
+/* Icones réseaux */
+.reseaux {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+.icone {
+	height: 40px;
+}
+
+.icone path {
+	fill: #333333;
 }
