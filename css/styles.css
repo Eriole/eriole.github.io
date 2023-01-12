@@ -13,7 +13,7 @@ body {
 header {
 	height: 250px;
 	display: flex;
-	background-image: linear-gradient(rgba(208, 173, 204, 0.1), rgba(208, 173, 204, 1)), url(../img/Fond.jpg) ;
+	background-image: linear-gradient(rgba(208, 173, 204, 0.1), rgba(208, 173, 204, 1)), url(../img/Fond.jpg);
 	background-position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -75,14 +75,14 @@ h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
 	font-family: Mulish, Arial, Impact;
 	font-weight: 400;
 	color: #333333;
 	text-align: center;
 }
 
-.sous{
+.sous {
 	font-family: Mulish, Arial, Impact;
 	font-weight: 400;
 	font-size: 1em;
@@ -98,11 +98,12 @@ h3 {
 	color: #666666;
 }
 
-.left>h3{
+.left > h3 {
 	font-size: 1.1em;
 }
 
-ul,p {
+ul,
+p {
 	list-style-type: none;
 	font-family: Ubuntu, Arial, Impact;
 	font-size: 0.9em;
@@ -122,11 +123,11 @@ strong {
 	color: #a37c9b;
 }
 
-.left>p {
+.left > p {
 	text-align: justify;
 }
 
-.left>.comp{
+.left > .comp {
 	margin-bottom: 0;
 	text-align: center;
 }
