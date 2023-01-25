@@ -21,7 +21,7 @@ header {
 	align-items: center;
 }
 
-img {
+.photo {
 	box-shadow: 2px 2px 20px #333333;
 }
 
@@ -36,7 +36,7 @@ img {
 
 .left {
 	width: 20%;
-	padding: 0px 10px 0px 30px;
+	padding: 0px 30px 0px 30px;
 	padding-bottom: 100px;
 }
 
@@ -46,6 +46,18 @@ img {
 	background-color: #e5e5e5;
 	border-radius: 80px 0 0 0;
 	/* box-shadow: -2px -2px 5px #666666; */
+}
+
+/* .projets {
+	background: linear-gradient(rgba(208, 173, 204, 1), rgba(171, 132, 203, 1))
+} */
+
+.realisation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width: 30%;
 }
 
 /* Barre de progression des compétences */
@@ -96,6 +108,7 @@ h3 {
 	font-size: 1.5em;
 	text-align: center;
 	color: #666666;
+
 }
 
 .left > h3 {
@@ -106,6 +119,7 @@ ul,
 p {
 	list-style-type: none;
 	font-family: Ubuntu, Arial, Impact;
+	font-weight: 400;
 	font-size: 0.9em;
 }
 
@@ -113,14 +127,19 @@ li {
 	margin-bottom: 20px;
 }
 
-.titre {
-	font-size: 1.2em;
-	font-weight: 700;
+strong {
 	color: #666666;
 }
 
-strong {
+.titre {
+	font-size: 1.2em;
+	font-weight: 700;
 	color: #a37c9b;
+}
+
+.localisation {
+	font-weight: 200;
+	color:#666666;
 }
 
 .left > p {
@@ -130,4 +149,26 @@ strong {
 .left > .comp {
 	margin-bottom: 0;
 	text-align: center;
+}
+
+/* Icones réseaux */
+.reseaux {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+.icone {
+	height: 40px;
+	transition: 0.3s;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 3px #a37c9b);
+}
+
+.icone path {
+	fill: #333333;
 }
