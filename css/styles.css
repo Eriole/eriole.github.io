@@ -48,10 +48,16 @@ header {
 	/* box-shadow: -2px -2px 5px #666666; */
 }
 
+/* .projets {
+	background: linear-gradient(rgba(208, 173, 204, 1), rgba(171, 132, 203, 1))
+} */
+
 .realisation {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: auto;
+	width: 30%;
 }
 
 /* Barre de progression des compétences */
@@ -102,6 +108,7 @@ h3 {
 	font-size: 1.5em;
 	text-align: center;
 	color: #666666;
+
 }
 
 .left > h3 {
