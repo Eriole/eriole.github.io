@@ -9,6 +9,11 @@ body {
 	color: #333333;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* Header */
 header {
 	height: 250px;
@@ -34,13 +39,13 @@ header {
 	margin: auto;
 }
 
-.left {
+.skills {
 	width: 20%;
 	padding: 0px 30px 0px 30px;
 	padding-bottom: 100px;
 }
 
-.right {
+.experience {
 	width: 80%;
 	padding-right: 10px;
 	background-color: #e5e5e5;
@@ -59,6 +64,8 @@ header {
 	margin: auto;
 	width: 30%;
 }
+
+
 
 /* Barre de progression des compétences */
 .barre {
@@ -111,11 +118,11 @@ h3 {
 
 }
 
-.left > h3 {
+.skills > h3 {
 	font-size: 1.1em;
 }
 
-ul,
+.experience ul,
 p {
 	list-style-type: none;
 	font-family: Ubuntu, Arial, Impact;
@@ -123,7 +130,7 @@ p {
 	font-size: 0.9em;
 }
 
-li {
+.experience ul li {
 	margin-bottom: 20px;
 }
 
@@ -142,14 +149,15 @@ strong {
 	color:#666666;
 }
 
-.left > p {
+.skills > p {
 	text-align: justify;
 }
 
-.left > .comp {
+.skills > .comp {
 	margin-bottom: 0;
 	text-align: center;
 }
+
 
 /* Icones réseaux */
 .reseaux {
