@@ -1,9 +1,9 @@
 body {
+	margin: 0;
 	box-sizing: border-box;
 	overflow-x: hidden;
-	margin: 0;
-	background-color: #d0adcc;
 	word-wrap: break-word;
+	background-color: #d0adcc;
 	font-family: Mulish, Ubuntu, Arial, Impact;
 	font-size: 16px;
 	color: #333333;
@@ -30,6 +30,14 @@ header {
 	box-shadow: 2px 2px 20px #333333;
 }
 
+header p {
+	font-family: Mulish, Arial, Impact;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #333333;
+}
+
 /* Articulation des sections */
 .cv {
 	display: flex;
@@ -41,21 +49,15 @@ header {
 
 .skills {
 	width: 20%;
-	padding: 0px 30px 0px 30px;
-	padding-bottom: 100px;
+	padding: 30px;
 }
 
 .experience {
-	width: 80%;
-	padding-right: 10px;
 	background-color: #e5e5e5;
+	width: 80%;
+	padding: 0 20px;
 	border-radius: 80px 0 0 0;
-	/* box-shadow: -2px -2px 5px #666666; */
 }
-
-/* .projets {
-	background: linear-gradient(rgba(208, 173, 204, 1), rgba(171, 132, 203, 1))
-} */
 
 .realisation {
 	display: flex;
@@ -63,27 +65,6 @@ header {
 	align-items: center;
 	margin: auto;
 	width: 30%;
-}
-
-
-
-/* Barre de progression des compétences */
-.barre {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.fill {
-	height: 15px;
-	width: 20px;
-	background-color: #a37c9b;
-}
-
-.empty {
-	height: 15px;
-	width: 20px;
-	background-color: #666666;
 }
 
 /* Textes */
@@ -101,33 +82,45 @@ h2 {
 	text-align: center;
 }
 
-.sous {
-	font-family: Mulish, Arial, Impact;
-	font-weight: 400;
-	font-size: 1em;
-	text-align: center;
-	color: #333333;
-}
-
 h3 {
 	font-family: Ubuntu, Arial, Impact;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 24px;
 	text-align: center;
 	color: #666666;
-
 }
 
 .skills > h3 {
-	font-size: 1.1em;
+	font-size: 18px;
 }
 
-.experience ul,
-p {
-	list-style-type: none;
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #a37c9b;
+	margin-bottom: 5px;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 200;
+	color:#666666;
+	margin:0;
+}
+
+ul {
+	margin : 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
 	font-family: Ubuntu, Arial, Impact;
 	font-weight: 400;
-	font-size: 0.9em;
+}
+
+.skills ul{
+	margin-top: 10px;
 }
 
 .experience ul li {
@@ -138,26 +131,19 @@ strong {
 	color: #666666;
 }
 
-.titre {
-	font-size: 1.2em;
-	font-weight: 700;
-	color: #a37c9b;
-}
-
-.localisation {
-	font-weight: 200;
-	color:#666666;
-}
-
 .skills > p {
 	text-align: justify;
 }
 
-.skills > .comp {
+.skills > p,
+.skills > ul {
 	margin-bottom: 0;
 	text-align: center;
 }
 
+.skills > ul.loisirs {
+	text-align: left;
+}
 
 /* Icones réseaux */
 .reseaux {
